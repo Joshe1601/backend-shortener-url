@@ -44,6 +44,8 @@ backend/
 │   └── api_documentation.md        # Documentación de las APIs
 └── README.md                       # Este archivo
 ```
+## Arquitectura utilizada
+![ShorterURL.drawio.png](ShorterURL.drawio.png)
 
 ## Configuración de DynamoDB
 

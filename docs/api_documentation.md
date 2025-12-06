@@ -24,7 +24,7 @@ Content-Type: application/json
 ```json
 {
   "url": "https://ejemplo.com/pagina-muy-larga",
-  "customCode": "mi-codigo-personalizado" // Opcional
+  "customCode": "mi-codigo-personalizado"
 }
 ```
 
@@ -32,7 +32,7 @@ Content-Type: application/json
 ```json
 {
   "shortCode": "14FeKu",
-  "shortUrl": "https://short-url.tu-dominio.com/14FeKu",
+  "shortUrl": "https://shorter.tu-dominio.com/14FeKu",
   "originalUrl": "https://ejemplo.com/pagina-muy-larga",
   "createdAt": "2024-12-06T10:30:00.000Z"
 }
@@ -63,7 +63,7 @@ Content-Type: application/json
 
 **Ejemplo cURL:**
 ```bash
-curl -X POST https://your-api-gateway.com/prod/shorten \
+curl -X POST https://your-api-gateway.com/prod/create \
   -H "Content-Type: application/json" \
   -d '{
     "url": "https://www.ejemplo.com/pagina-muy-larga"
