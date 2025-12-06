@@ -45,7 +45,7 @@ backend/
 └── README.md                       # Este archivo
 ```
 ## Arquitectura utilizada
-![ShorterURL.drawio.png](ShorterURL.drawio.png)
+![URLShortener.png](URLShortener.png)
 
 ## Configuración de DynamoDB
 
