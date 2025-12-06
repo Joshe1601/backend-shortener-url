@@ -13,7 +13,7 @@ https://your-api-gateway.execute-api.region.amazonaws.com/prod
 
 Genera una versión acortada de una URL larga.
 
-**Endpoint:** `POST /shorten`
+**Endpoint:** `POST /create`
 
 **Headers:**
 ```
